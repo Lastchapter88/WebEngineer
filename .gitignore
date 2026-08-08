@@ -1,0 +1,76 @@
+# Dependencies
+node_modules/
+.venv/
+venv/
+env/
+ENV/
+*.egg-info/
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+credentials.json
+**/credentials.json
+*.secret
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Backend runtime / uploads
+backend/uploads/
+backend/processed/
+*.db
+*.sqlite3
+
+# Logs & temp
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.tmp
+*.temp
+.cache/
+dump.rdb
+backend/import_err_sp.txt
+backend/import_log_sp.txt
+
+# Build
+dist/
+dist-ssr/
+build/
+*.local
+
+# Editor / OS
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Archives / misc local
+*.zip
+files (1)/
+New folder/
